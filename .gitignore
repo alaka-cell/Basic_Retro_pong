@@ -1,4 +1,13 @@
-/pyproject.toml
-/scores.json
-/uv.lock
-/READNE.md
+# Ignore specific files
+pyproject.toml
+scores.json
+uv.lock
+READNE.md  # Typo version just in case
+
+# Optional: Ignore all hidden/system files (e.g., macOS or IDE settings)
+.DS_Store
+*.swp
+__pycache__/
+*.pyc
+*.pyo
+*.log
