@@ -16,13 +16,13 @@ pygame.display.set_caption("Pong Game")
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-font_path = r"C:\\Users\\alaka\\Downloads\\arcade_classic\\Arcade Classic.ttf"
+font_path = r"C:\\Users\\user\\filename\\arcade_classic\\Arcade Classic.ttf"
 title_font = pygame.font.Font(font_path, 60)
 subtitle_font = pygame.font.Font(font_path, 28)
 score_font = pygame.font.Font(font_path, 30)
 
 brain_icon = pygame.image.load(
-    r"C:\\Users\\alaka\\OneDrive\\Desktop\\Pong\\assets\\pngtree-brain-in-head-in-pixel-art-style-png-image_15996749.png"
+   r"C:\\path\\to\\the\image\"
 ).convert_alpha()
 brain_icon = pygame.transform.scale(brain_icon, (40, 40))
 brain_rect = brain_icon.get_rect(topright=(WIDTH - 20, 20))
